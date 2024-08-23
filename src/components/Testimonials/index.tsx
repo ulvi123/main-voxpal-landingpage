@@ -5,19 +5,19 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Ramin Akbarov",
+    designation: "Founder @Bucard",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're learing a language.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Wakana Fukuda",
+    designation: "Founder @Bizworld Japan",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "It's perfect for our community. Easy to use and distraction-free. Members love it.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
