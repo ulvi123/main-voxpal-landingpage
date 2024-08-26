@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Designed for those who want to speak fluent english"
-                paragraph="The general ‘notion’ is to make AI and LLMS availabe for everyday user and businesses to improve the english langiage speaking experience."
+                paragraph="The general ‘notion’ is to make AI and LLMs availabe for everyday user and businesses to improve the english language speaking experience."
                 mb="44px"
               />
 

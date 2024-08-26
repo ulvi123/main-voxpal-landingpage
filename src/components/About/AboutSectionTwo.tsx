@@ -29,7 +29,7 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  24/7 LLM model powered AI assistant
+                  24/7 AI powered language enhancing experience
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   You can use Voxpal's real world data trained AI model to enhance your speaking ability anytime,anywhere.
@@ -49,7 +49,7 @@ const AboutSectionTwo = () => {
                   Measure your performance all the time
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  We have specifically developed a data aggregation system that wll guide you based on your performance.
+                  We have specifically developed a data aggregation system that will guide you based on your performance.
                   For instnce, If you speak slowly or use too many same words, you will be notified.Your language abilities
                   will be analyzed to present you the ideal scenario of what expects you in te actual world.
                 </p>
