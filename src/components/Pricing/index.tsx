@@ -60,42 +60,44 @@ const Pricing = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
             packageName="Starter"
-            price={isMonthly ? "9.99" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Ideal for individual users"
+            price={isMonthly ? "13.99" : "120"}
+            duration={isMonthly ? "mo/per seat" : "yr/per seat"}
+            subtitle="Ideal for individual users who want to game up their speaking skills"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Realtime voice chat" status="active" />
+            <OfferList text="50 minutes of speaking credit" status="active" />
+            <OfferList text="Email support" status="active" />
+            <OfferList text="1 speech analysis report" status="active" />
+            <OfferList text="Lifetime access" status="inactive" />
+            <OfferList text="Unlimited Voxpal groups with others" status="inactive" />
+            <OfferList text="Personal native speaker support" status="inactive" />
+            <OfferList text="Unlimited Voxpal threads with others" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            packageName="Premium"
+            price={isMonthly ? "45.99" : "599"}
+            duration={isMonthly ? "mo/per seat" : "yr/per seat"}
+            subtitle="Best suited for startups,corporate and government agencies."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Realtime voice chat" status="active" />
+            <OfferList text="120 minutes of speaking credit" status="active" />
+            <OfferList text="Customer Success manager" status="active" />
+            <OfferList text="Custom dashboard for business" status="active" />
+            <OfferList text="4 speech analysis report" status="active" />
+            <OfferList text="Audio and Video Breakout rooms" status="active" />
+            <OfferList text="Unlimited Voxpal groups with others" status="active" />
+            <OfferList text="Personal native speaker support" status="active" />
+            <OfferList text="Discounts on the Merch Store" status="active" />
           </PricingBox>
           <PricingBox
             packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            price={isMonthly ? "249.99" : "999"}
+            duration={isMonthly ? "mo/per seat" : "yr/per seat"}
+            subtitle="Mostly popular among large companies with varied AI solution integration needs."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Everything in Premium" status="active" />
+            <OfferList text="Custom SLAs for business" status="active" />
+            <OfferList text="24/7 support" status="active" />
           </PricingBox>
         </div>
       </div>
